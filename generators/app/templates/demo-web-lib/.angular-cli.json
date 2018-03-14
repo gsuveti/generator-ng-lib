@@ -1,0 +1,20 @@
+{    "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+    "project": {
+        "name": "<%= name %>"
+    },
+    "apps": [
+        {
+            "root": "src",
+            "prefix": "<%= prefix %>"
+        }
+    ],
+    "defaults": {
+        "styleExt": "scss",
+        "prefixInterfaces": false,
+        "component": {
+            "inlineStyle": false,
+            "inlineTemplate": false
+        }
+
+    }
+}
